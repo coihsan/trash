@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header>
-      <div className={styles.description}>
-        <p>
+      <div className={styles.header}>
+        <p className="text-rose-500">
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
