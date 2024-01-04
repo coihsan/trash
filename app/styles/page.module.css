@@ -6,18 +6,7 @@
   padding: 6rem;
   min-height: 100vh;
 }
-.header {
-  display: inherit;
-  justify-content: inherit;
-  margin: 0 auto;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 112;
-  font-family: var(--font-mono);
-  background-color: var(--primary-glow);
-}
+
 .description {
   display: inherit;
   justify-content: inherit;

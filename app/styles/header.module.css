@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 112;
+  font-family: var(--font-mono);
+  background-color: light dark;
+  color: light dark;
+  padding: 2rem 1rem;
+}
+.darkmode {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
