@@ -19,17 +19,21 @@ export default function DarkMode() {
   }, []);
 
   return (
-    <div className="flex items-center gap-2">
-      <span className="text-sm">Theme</span>
-      <select
-        className="rounded-md px-3 dark:bg-coral-700 dark:text-coral-100"
-        name="theme"
-        id="darkmode"
-        onChange={handleDarkMode}
-      >
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-      </select>
+    <div className="relative rounded-md bg-coral-100 dark:bg-coral-700 dark:text-coral-100">
+      <div className="flex items-center gap-2 rounded-md px-3 py-2 dark:text-coral-100">
+        <div className="dark:fill-coral-100 w-[20px] h-[20px]">
+          {!isDarkMode ? iconsUI.moon : iconsUI.sun}
+        </div>
+        <select
+          className="bg-coral-100 dark:bg-coral-700 cursor-pointer text-sm"
+          name="theme"
+          id="darkmode"
+          onChange={handleDarkMode}
+        >
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
     </div>
   );
 }
