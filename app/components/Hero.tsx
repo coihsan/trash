@@ -37,7 +37,7 @@ const Hero = () => {
         />
       </div>
       <div className="mt-[2rem] relative px-8 rounded-lg border border-coral-400 dark:border-coral-600">
-        <code className="absolute top-0 left-0 p-2 rounded-t-lg text-coral-500 text-sky-500 w-full border-b-[1px] border-coral-400 dark:border-coral-600 pl-8 text-[14px]">
+        <code className="absolute top-0 left-0 p-2 rounded-t-lg bg-sky-950 text-sky-500 w-full border-b-[1px] border-coral-400 dark:border-coral-600 pl-8 text-[14px]">
           about_me.md
         </code>
         <p className="pt-[4rem] text-[18px]">{personal.about}</p>
