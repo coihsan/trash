@@ -1,10 +1,9 @@
 import DarkMode from "../UI/DarkMode";
-import styles from "../styles/header.module.css";
 import Image from "next/image";
 export default function Header() {
   return (
-    <header className="fixed mx-auto">
-      <div className="w-full">
+    <header className="max-w-screen-md mx-auto bg-coral-200 dark:bg-coral-800 px-6 dark:text-coral-100 rounded-lg mt-5">
+      <div className="w-full mx-auto flex items-center justify-between py-5">
         <span>coihsan</span>
         <DarkMode />
       </div>

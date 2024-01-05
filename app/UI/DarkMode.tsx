@@ -1,6 +1,6 @@
 "use client";
-import styles from "../styles/header.module.css";
 import React, { useState, useEffect } from "react";
+import { iconsUI } from "../constants/Icons";
 export default function DarkMode() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const handleDarkMode = () => {
@@ -19,9 +19,14 @@ export default function DarkMode() {
   }, []);
 
   return (
-    <div className={styles.darkmode}>
+    <div className="flex items-center gap-2">
       <span>Theme</span>
-      <select name="theme" id="darkmode" onChange={handleDarkMode}>
+      <select
+        className="rounded-md px-3"
+        name="theme"
+        id="darkmode"
+        onChange={handleDarkMode}
+      >
         <option value="light">Light</option>
         <option value="dark">Dark</option>
       </select>
