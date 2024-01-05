@@ -36,11 +36,13 @@ const Hero = () => {
           icon={iconsUI.link}
         />
       </div>
-      <div className="mt-[2rem] relative px-8 rounded-lg border border-coral-400 dark:border-coral-600">
-        <code className="absolute top-0 left-0 p-2 rounded-t-lg bg-sky-950 text-sky-500 w-full border-b-[1px] border-coral-400 dark:border-coral-600 pl-8 text-[14px]">
+      <div className="mt-[2rem] relative px-8 rounded-lg border bg-sky-100 dark:bg-sky-950/30 border-sky-400 dark:border-sky-600">
+        <code className="absolute top-0 left-0 p-2 rounded-t-lg text-sky-500 w-full border-b-[1px] border-sky-400 dark:border-sky-600 pl-8 text-[14px]">
           about_me.md
         </code>
-        <p className="pt-[4rem] text-[18px]">{personal.about}</p>
+        <p className="pt-[4rem] text-[18px] dark:text-coral-400">
+          {personal.about}
+        </p>
         <div className="flex itemx-center gap-1 py-5">
           <span className="fill-coral-500">{iconsUI.map}</span>
           <p className="text-coral-500">Kota Tangerang</p>
