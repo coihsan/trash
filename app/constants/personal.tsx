@@ -27,17 +27,22 @@ export const personaldata: {
       {
         key: 0,
         icon: iconsUI.globe,
-        skilled: "Digital Marketing",
-      },
-      {
-        key: 1,
-        icon: iconsUI.layout,
-        skilled: "Frontend Developer",
+        skilled: "SEM",
       },
       {
         key: 1,
         icon: iconsUI.palette,
-        skilled: "Graphic Design",
+        skilled: "Design",
+      },
+      {
+        key: 2,
+        icon: iconsUI.layout,
+        skilled: "Frontend Developer",
+      },
+      {
+        key: 3,
+        icon: iconsUI.search,
+        skilled: "SEO",
       },
     ],
     location: [
