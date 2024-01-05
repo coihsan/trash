@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="my-[2rem]">
-        <h3 className="text-2xl pb-5">Role</h3>
+        <h3 className="titleSection">Role</h3>
         <div className="flex itemx-center flex-wrap gap-2">
           {personal.passion.map((skill) => (
             <div
