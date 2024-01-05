@@ -20,9 +20,9 @@ export default function DarkMode() {
 
   return (
     <div className="flex items-center gap-2">
-      <span>Theme</span>
+      <span className="text-sm">Theme</span>
       <select
-        className="rounded-md px-3"
+        className="rounded-md px-3 dark:bg-coral-700 dark:text-coral-100"
         name="theme"
         id="darkmode"
         onChange={handleDarkMode}
