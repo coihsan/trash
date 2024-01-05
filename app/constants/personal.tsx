@@ -34,6 +34,11 @@ export const personaldata: {
         icon: iconsUI.layout,
         skilled: "Frontend Developer",
       },
+      {
+        key: 1,
+        icon: iconsUI.palette,
+        skilled: "Graphic Design",
+      },
     ],
     location: [
       {
