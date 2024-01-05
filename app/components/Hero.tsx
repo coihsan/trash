@@ -42,8 +42,8 @@ const Hero = () => {
         </code>
         <p className="pt-[4rem] text-[18px]">{personal.about}</p>
         <div className="flex itemx-center gap-1 py-5">
-          <span className="fill-coral-600">{iconsUI.map}</span>
-          <p className="text-coral-600">Kota Tangerang</p>
+          <span className="fill-coral-500">{iconsUI.map}</span>
+          <p className="text-coral-500">Kota Tangerang</p>
         </div>
       </div>
       <div className="my-[2rem]">

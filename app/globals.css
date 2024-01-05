@@ -20,8 +20,8 @@ body {
   overflow-x: hidden;
 }
 
-@layer utilities{
-  .titleSection{
-    @apply text-3xl max-sm:text-2xl pb-5
+@layer utilities {
+  .titleSection {
+    @apply text-3xl max-sm:text-2xl pb-5;
   }
 }

@@ -9,10 +9,14 @@ export default function Skills() {
         {iconsRepo.map((icons) => (
           <li
             key={icons.key}
-            className="flex items-center flex-col justify-center bg-coral-200 dark:bg-coral-900 p-5 rounded-lg"
+            className="flex items-center flex-col gap-3 justify-center bg-coral-200 dark:bg-coral-900 p-5 rounded-lg border dark:border-coral-800"
           >
-            <span>{icons.icon}</span>
-            <span>{icons.title}</span>
+            <div className="p-3 rounded-lg dark:bg-coral-800 flex items-center justify-center">
+              <div>{icons.icon}</div>
+            </div>
+            <p className="text-[14px] text-coral-700 dark:text-coral-500 text-center leading-none">
+              {icons.title}
+            </p>
           </li>
         ))}
       </ul>
