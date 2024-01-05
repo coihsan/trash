@@ -1,4 +1,5 @@
 export const iconsUI = {
+  key: 0,
   sun: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
