@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { iconsTech, dataplatform } from "../constants/IconsRepo";
+import { iconsRepo, dataplatform } from "../constants/IconsRepo";
 
 export default function Skills() {
   return (
     <section>
       <h1 className="titleSection">Tech Stack</h1>
       <ul className="grid grid-cols-4 gap-2 max-sm:grid-cols-3">
-        {iconsTech.map((icons) => (
+        {iconsRepo.map((icons) => (
           <li
             key={icons.key}
             className="flex items-center flex-col gap-3 justify-center bg-coral-300 dark:bg-coral-900 p-5 rounded-lg border dark:border-coral-800"
