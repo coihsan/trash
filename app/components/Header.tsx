@@ -3,8 +3,8 @@ import styles from "../styles/header.module.css";
 import Image from "next/image";
 export default function Header() {
   return (
-    <header>
-      <div className={styles.header}>
+    <header className="fixed mx-auto">
+      <div className="w-full">
         <span>coihsan</span>
         <DarkMode />
       </div>
