@@ -21,7 +21,7 @@ const Hero = () => {
         <p>Kota Tangerang</p>
       </div>
       <div className="relative px-8 rounded-lg border border-coral-400 dark:border-coral-600">
-        <code className="absolute top-0 left-0 p-2 rounded-t-lg text-coral-500 dark:text-coral-400 w-full bg-coral-200 dark:bg-coral-700">
+        <code className="absolute top-0 left-0 p-2 rounded-t-lg text-coral-500 dark:text-coral-400 w-full border-b-[1px] border-coral-400 dark:border-coral-600">
           aboutme.tsx
         </code>
         <p className="pt-[4rem] pb-5 ">{personal.about}</p>
