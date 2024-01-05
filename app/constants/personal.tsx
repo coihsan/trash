@@ -13,11 +13,6 @@ export const personaldata: {
     icon: JSX.Element;
     skilled: string;
   }[];
-  contact: {
-    key: number;
-    icon: JSX.Element;
-    skilled: string;
-  }[];
 }[] = [
   {
     key: 0,
@@ -32,7 +27,7 @@ export const personaldata: {
       {
         key: 1,
         icon: iconsUI.palette,
-        skilled: "Design",
+        skilled: "Graphic Design",
       },
       {
         key: 2,

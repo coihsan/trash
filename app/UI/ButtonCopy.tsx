@@ -2,7 +2,7 @@
 import { iconsUI } from "../constants/Icons";
 import { useEffect, useState } from "react";
 
-export default function ButtonCopy({ textButton, textCopy }) {
+export default function ButtonCopy() {
   const [isCopied, setIsCopied] = useState(false);
 
   const copyEmail = "co.ihsan@gmail.com";
