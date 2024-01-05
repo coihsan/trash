@@ -5,7 +5,7 @@ const Hero = () => {
   const personal = personaldata[0];
   return (
     <section className="mx-auto w-full flex flex-col py-12">
-      <h1 className="text-6xl font-bold pb-9">˗ˏˋIhsan ˎˊ</h1>
+      <h1 className="text-7xl max-sm:text-6xl font-bold pb-9">˗ˏˋIhsan ˎˊ</h1>
       <div className="flex py-5 itemx-center flex-wrap gap-3">
         {personal.passion.map((skill) => (
           <div
@@ -19,12 +19,12 @@ const Hero = () => {
       </div>
 
       <div className="relative px-8 rounded-lg border border-coral-400 dark:border-coral-600">
-        <code className="absolute top-0 text-[18px] left-0 p-2 rounded-t-lg text-coral-500 dark:text-coral-400 w-full border-b-[1px] border-coral-400 dark:border-coral-600 pl-8">
+        <code className="absolute top-0 left-0 p-2 rounded-t-lg text-coral-500 text-sky-500 w-full border-b-[1px] border-coral-400 dark:border-coral-600 pl-8 text-[14px]">
           about_me.md
         </code>
-        <p className="pt-[4rem]">{personal.about}</p>
+        <p className="pt-[4rem] text-[18px]">{personal.about}</p>
         <div className="flex itemx-center gap-1 py-5">
-          <span className="dark:fill-coral-600">{iconsUI.map}</span>
+          <span className="fill-coral-600">{iconsUI.map}</span>
           <p className="text-coral-600">Kota Tangerang</p>
         </div>
         {/* <ButtonCopy /> */}
