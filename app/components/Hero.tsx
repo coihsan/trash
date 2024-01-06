@@ -36,7 +36,7 @@ const Hero = () => {
           icon={iconsUI.link}
         />
       </div>
-      <div className="mt-[2rem] relative px-8 rounded-lg border bg-sky-100 dark:bg-coral-950/30 border-coral-400 dark:border-coral-600">
+      <div className="mt-[2rem] relative px-8 rounded-lg border bg-coral-100 dark:bg-coral-950/30 border-coral-400 dark:border-coral-600 shadow-md">
         <code className="absolute top-0 left-0 p-2 rounded-t-lg text-sky-500 w-full border-b-[1px] border-coral-400 dark:border-coral-600 pl-8 text-[14px]">
           about_me.md
         </code>
@@ -54,7 +54,7 @@ const Hero = () => {
           {personal.passion.map((skill) => (
             <div
               key={skill.key}
-              className="flex items-center gap-1 px-3 py-1 rounded-full border border-coral-400 dark:border-coral-100"
+              className="flex items-center gap-1 px-3 py-1 shadow-md rounded-full border border-coral-400 dark:border-coral-600"
             >
               <span className="dark:fill-coral-100">{skill.icon}</span>
               <p className="font-medium max-sm:text-sm">{skill.skilled}</p>
