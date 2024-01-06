@@ -8,7 +8,7 @@ export default function Projects() {
         {dataprojects.map((index) => (
           <li
             key={index.key}
-            className="p-3 shadow-md rounded-lg bg-zinc-100 dark:bg-zinc-900 border border-zinc-400 dark:border-zinc-800"
+            className="p-3 shadow-md rounded-lg bg-coral-100 dark:bg-zinc-900 border border-coral-400 dark:border-zinc-800"
           >
             <Image
               className="w-full object-fit rounded-lg"

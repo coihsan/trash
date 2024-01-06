@@ -36,7 +36,7 @@ const Hero = () => {
           icon={iconsUI.link}
         />
       </div>
-      <div className="mt-[2rem] relative px-8 rounded-lg border bg-coral-100 dark:bg-coral-950/30 border-coral-400 dark:border-coral-600 shadow-md">
+      <div className="mt-[2rem] relative px-8 rounded-lg border bg-coral-100 dark:bg-coral-950 border-coral-400 dark:border-coral-600 shadow-md">
         <code className="absolute top-0 left-0 p-2 rounded-t-lg text-sky-500 w-full border-b-[1px] border-coral-400 dark:border-coral-600 pl-8 text-[14px]">
           about_me.md
         </code>
@@ -61,9 +61,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="my-[2rem]">
-        <h3 className="titleSection">Role</h3>
+        <div className="my-[2rem]">
         <div className="flex itemx-center flex-wrap gap-2">
           {personal.passion.map((skill) => (
             <div
@@ -75,6 +73,7 @@ const Hero = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );
