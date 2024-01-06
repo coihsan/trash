@@ -20,7 +20,7 @@ export default function ButtonCopy() {
       type="button"
       onClick={handleCopy}
       style={{ color: isCopied ? "#a3a3a3" : "#171717" }}
-      className="w-max shadow-md shadow-zinc-300 dark:shadow-inherit flex px-3 py-2 rounded-md bg-zinc-100 hover:bg-zinc-200 items-center gap-2 cursor-pointer border border-zinc-300 dark:border-white"
+      className="w-max shadow-md shadow-zinc-300 dark:shadow-inherit flex px-3 py-1.5 rounded-md bg-zinc-100 hover:bg-zinc-200 items-center gap-2 cursor-pointer border border-zinc-300 dark:border-white"
     >
       {iconsUI.copy}
       <span>{isCopied ? "Copied" : "E-Mail"}</span>

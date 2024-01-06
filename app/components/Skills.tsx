@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <section>
       <h1 className="titleSection">Tech Stack</h1>
-      <ul className="grid grid-cols-5 gap-2 max-sm:grid-cols-3">
+      <ul className="grid grid-cols-4 gap-2 max-sm:grid-cols-3">
         {iconsRepo.map((icons) => (
           <li
             key={icons.key}

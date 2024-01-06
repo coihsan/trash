@@ -5,8 +5,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 128 128"
       >
         <path
@@ -26,8 +26,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 256 256"
       >
         <g fill="none">
@@ -46,8 +46,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 256 230"
       >
         <path
@@ -75,8 +75,8 @@ export const iconsRepo = [
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="dark:invert"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 256 256"
       >
         <defs>
@@ -125,8 +125,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 32 32"
       >
         <path
@@ -151,8 +151,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 24 24"
       >
         <path
@@ -168,8 +168,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 32 32"
       >
         <path
@@ -202,8 +202,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 256 256"
       >
         <path fill="#F7DF1E" d="M0 0h256v256H0z" />
@@ -217,8 +217,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 128 128"
       >
         <g fill="#61DAFB">
@@ -234,8 +234,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 128 128"
       >
         <path
@@ -251,8 +251,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 256 256"
       >
         <path
@@ -272,8 +272,8 @@ export const iconsRepo = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         viewBox="0 0 256 384"
       >
         <path
