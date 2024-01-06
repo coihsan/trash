@@ -30,7 +30,7 @@ const Hero = () => {
         <ButtonLink
           link={"#"}
           variant={
-            "bg-gray-400 dark:bg-gray-600 border-gray-500 dark:border-gray-500 dark:fill-white"
+            "bg-gray-300 dark:bg-gray-600 border-gray-400/40 dark:border-gray-500 dark:fill-white"
           }
           text={"Resume"}
           icon={iconsUI.link}
