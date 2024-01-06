@@ -14,7 +14,7 @@ export const dataprojects: dataProps = [
     urlPreview: "https://zinc-starter.vercel.app/",
     urlDownload:
       "https://github.com/coihsan/zinc-starters-rgkhtp/archive/refs/heads/main.zip",
-    tech: ["NextJS", "Tailwind CSS"],
+    tech: ["Next.js", "Tailwind CSS"],
   },
   {
     key: 1,
@@ -23,7 +23,7 @@ export const dataprojects: dataProps = [
     urlPreview: "https://berrynet-starter.vercel.app/",
     urlDownload:
       "https://github.com/coihsan/berrynet-starters-rgkhtp/archive/refs/heads/main.zip",
-    tech: ["NextJS", "Tailwind CSS"],
+    tech: ["Next.js", "Tailwind CSS"],
   },
   {
     key: 2,
