@@ -12,14 +12,14 @@ export default function Skills() {
             className="flex items-center flex-col gap-3 justify-center "
           >
             <div>{icons.icon}</div>
-            <p className="text-[14px] text-zinc-700 dark:text-zinc-500 text-center leading-none">
+            <p className="text-[14px] text-zinc-700 dark:text-zinc-400 text-center leading-none">
               {icons.title}
             </p>
           </li>
         ))}
       </ul>
       <div className="pt-[3rem]">
-        <h1 className="subtitleSection">More Tool{"'"}s</h1>
+        <h1 className="subtitleSection text-center">More Tool{"'"}s</h1>
         <ul className="flex flex-wrap items-center gap-2">
           {dataplatform.map((listskills) => (
             <li

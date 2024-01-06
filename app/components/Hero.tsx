@@ -43,18 +43,23 @@ const Hero = () => {
         <p className="pt-[4rem] text-[18px] dark:text-coral-400">
           {personal.about}
         </p>
-        <div className="flex items-center gap-4">
-          <div className="w-12 h-12">{iconsUI.skillshop}</div>
-          <a href="" className="hover:underline">
-            Skillshop
-          </a>
-          <a href="" className="hover:underline">
-            Accredible.net
-          </a>
-        </div>
-        <div className="flex itemx-center gap-1 py-5">
-          <span className="fill-zinc-500">{iconsUI.map}</span>
-          <p className="text-zinc-500">Kota Tangerang</p>
+        <div className="flex items-center gap-2 py-5 max-sm:flex-col max-sm:items-start">
+          <h3>Google Credentials</h3>
+          <div className="flex items-center gap-2 flex-wrap">
+            <div className="w-12 h-12">{iconsUI.skillshop}</div>
+            <a
+              href=""
+              className="px-4 py-1 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline"
+            >
+              Skillshop
+            </a>
+            <a
+              href=""
+              className="px-4 py-1 hover:bg-zinc-200 hover:dark:bg-zinc-800 hover:underline rounded-full"
+            >
+              Accredible.net
+            </a>
+          </div>
         </div>
       </div>
       <div className="my-[2rem]">
