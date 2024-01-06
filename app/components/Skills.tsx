@@ -3,13 +3,13 @@ import { iconsRepo, dataplatform } from "../constants/IconsRepo";
 
 export default function Skills() {
   return (
-    <section>
+    <section className="shadow-md bg-coral-100 dark:bg-coral-900 p-5 rounded-lg border border-coral-400 dark:border-coral-800">
       <h1 className="titleSection">Tech Stack</h1>
-      <ul className="grid grid-cols-4 gap-2 max-sm:grid-cols-3">
+      <ul className="grid grid-cols-4 gap-8 max-sm:grid-cols-3">
         {iconsRepo.map((icons) => (
           <li
             key={icons.key}
-            className="shadow-md flex items-center flex-col gap-3 justify-center bg-white dark:bg-coral-900 p-5 rounded-lg border border-coral-400 dark:border-coral-800"
+            className="flex items-center flex-col gap-3 justify-center "
           >
             <div>{icons.icon}</div>
             <p className="text-[14px] text-coral-700 dark:text-coral-500 text-center leading-none">
@@ -18,8 +18,8 @@ export default function Skills() {
           </li>
         ))}
       </ul>
-      <div className="pt-[2rem]">
-        <h1 className="titleSection">Favorite Tool{"'"}s</h1>
+      <div className="pt-[3rem]">
+        <h1 className="subtitleSection">More Tool{"'"}s</h1>
         <ul className="flex flex-wrap items-center gap-2">
           {dataplatform.map((listskills) => (
             <li

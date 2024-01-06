@@ -43,6 +43,15 @@ const Hero = () => {
         <p className="pt-[4rem] text-[18px] dark:text-coral-400">
           {personal.about}
         </p>
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12">{iconsUI.skillshop}</div>
+          <a href="" className="hover:underline">
+            Skillshop
+          </a>
+          <a href="" className="hover:underline">
+            Accredible.net
+          </a>
+        </div>
         <div className="flex itemx-center gap-1 py-5">
           <span className="fill-coral-500">{iconsUI.map}</span>
           <p className="text-coral-500">Kota Tangerang</p>
