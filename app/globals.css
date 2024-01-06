@@ -22,9 +22,9 @@ body {
 
 @layer utilities {
   .titleSection {
-    @apply text-[3rem] max-sm:text-2xl mb-5;
+    @apply text-[2.5rem] max-sm:text-2xl mb-5;
   }
   .subtitleSection {
-    @apply text-[2rem] max-sm:text-[1.4rem] mb-5;
+    @apply text-[1.5rem] max-sm:text-[1.2rem] mb-5;
   }
 }

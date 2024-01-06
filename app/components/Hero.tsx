@@ -53,8 +53,8 @@ const Hero = () => {
           </a>
         </div>
         <div className="flex itemx-center gap-1 py-5">
-          <span className="fill-coral-500">{iconsUI.map}</span>
-          <p className="text-coral-500">Kota Tangerang</p>
+          <span className="fill-zinc-500">{iconsUI.map}</span>
+          <p className="text-zinc-500">Kota Tangerang</p>
         </div>
       </div>
       <div className="my-[2rem]">
@@ -63,9 +63,9 @@ const Hero = () => {
           {personal.passion.map((skill) => (
             <div
               key={skill.key}
-              className="flex items-center gap-1 px-3 py-1 shadow-md rounded-full border border-coral-400 dark:border-coral-600"
+              className="flex items-center gap-1 px-3 py-1 shadow-md rounded-full border border-zinc-400 dark:border-coral-600"
             >
-              <span className="dark:fill-coral-100">{skill.icon}</span>
+              <span className="dark:fill-zinc-100">{skill.icon}</span>
               <p className="font-medium max-sm:text-sm">{skill.skilled}</p>
             </div>
           ))}
