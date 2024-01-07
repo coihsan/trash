@@ -30,14 +30,14 @@ export default function Projects() {
             </div>
             <div className="flex items-center gap-2 border-t-[1px] mt-[1rem] pt-[10px] *:text-sm">
               <a
-                className="flex items-center gap-2 px-3 py-1 rounded-md hover:bg-slate-1100 transition-all duration-300 ease-linear"
+                className="flex items-center gap-2 px-3 py-1 rounded-md hover:bg-slate-200 transition-all duration-300 ease-linear"
                 href=""
               >
                 <div className="text-[1rem]">{iconsUI.link}</div>
                 <span>Preview</span>
               </a>
               <a
-                className="flex items-center gap-2 px-3 py-1 rounded-md hover:bg-slate-1100 transition-all duration-300 ease-linear"
+                className="flex items-center gap-2 px-3 py-1 rounded-md hover:bg-slate-200 transition-all duration-300 ease-linear"
                 href=""
               >
                 <span>{iconsUI.github}</span>

@@ -24,7 +24,7 @@ export default function Skills() {
           {dataplatform.map((listskills) => (
             <li
               key={listskills.key}
-              className="flex items-center justify-center gap-2 px-5 py-1 rounded-full bg-coral-200 dark:bg-zinc-900 border border-zinc-400 dark:border-zinc-500"
+              className="flex items-center justify-center gap-2 px-5 py-1 rounded-full bg-slate-200 dark:bg-zinc-900 border border-zinc-400 dark:border-zinc-500"
             >
               <span>{listskills.icon}</span>
               <p>{listskills.title}</p>

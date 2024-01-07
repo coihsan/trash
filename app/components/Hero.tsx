@@ -21,7 +21,7 @@ const Hero = () => {
         <ButtonLink
           link={"#"}
           variant={
-            "bg-lime-400 dark:bg-lime-600 border-lime-500 dark:border-lime-500 dark:fill-white"
+            "border-lime-500 dark:border-lime-500 dark:fill-white"
           }
           text={"Whatsapp"}
           icon={iconsUI.whatsapp}
@@ -30,7 +30,7 @@ const Hero = () => {
         <ButtonLink
           link={"#"}
           variant={
-            "bg-slate-300 dark:bg-zinc-600 border-gray-400/40 dark:border-gray-500 dark:fill-white"
+            "bg-slate-800 dark:bg-slate-100 border-gray-400 dark:border-gray-500 dark:fill-white"
           }
           text={"Resume"}
           icon={iconsUI.link}
