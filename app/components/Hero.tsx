@@ -36,7 +36,7 @@ const Hero = () => {
           icon={iconsUI.link}
         />
       </div>
-      <div className="mt-[2rem] relative px-8 rounded-lg border bg-zinc-300 dark:bg-zinc-900 border-zinc-400 dark:border-zinc-600 shadow-md">
+      <div className="mt-[2rem] relative px-8 rounded-lg border bg-slate-50 dark:bg-zinc-900 border-zinc-400 dark:border-zinc-600 shadow-md">
         <code className="absolute top-0 left-0 p-2 rounded-t-lg text-sky-500 w-full border-b-[1px] border-zinc-400 dark:border-zinc-600 pl-8 text-[14px]">
           about_me.md
         </code>
