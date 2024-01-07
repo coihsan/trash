@@ -44,7 +44,7 @@ const Hero = () => {
           {personal.about}
         </p>
         <div className="flex items-center gap-2 py-5 max-sm:flex-col max-sm:items-start">
-          <h3>Google Credentials</h3>
+          <h3>Credentials</h3>
           <div className="flex items-center gap-2 flex-wrap">
             <div className="w-12 h-12">{iconsUI.skillshop}</div>
             <a
