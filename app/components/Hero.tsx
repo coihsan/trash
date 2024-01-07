@@ -21,20 +21,12 @@ const Hero = () => {
         <ButtonLink
           link={"#"}
           variant={
-            "border-lime-500 dark:border-lime-500 dark:fill-white"
+            "bg-coral-100 border-lime-500 dark:border-coral-500 dark:fill-white"
           }
           text={"Whatsapp"}
           icon={iconsUI.whatsapp}
         />
         <ButtonCopy />
-        <ButtonLink
-          link={"#"}
-          variant={
-            "bg-slate-800 dark:bg-slate-100 border-gray-400 dark:border-gray-500 dark:fill-white"
-          }
-          text={"Resume"}
-          icon={iconsUI.link}
-        />
       </div>
       <div className="mt-[2rem] relative px-8 rounded-lg border bg-slate-100 dark:bg-zinc-900 border-zinc-400 dark:border-zinc-600 shadow-md">
         <code className="absolute top-0 left-0 p-2 rounded-t-lg text-sky-500 w-full border-b-[1px] border-zinc-400 dark:border-zinc-600 pl-8 text-[14px]">
