@@ -9,7 +9,7 @@ export default function Skills() {
         {iconsRepo.map((icons) => (
           <li
             key={icons.key}
-            className="flex items-center flex-col rounded-lg p-5 gap-3 justify-center border border-zinc-400 dark:border-zinc-500"
+            className="flex items-center flex-col rounded-lg p-5 gap-3 justify-center bg-white border border-zinc-400 dark:border-zinc-500"
           >
             <div>{icons.icon}</div>
             <p className="text-[14px] text-zinc-700 dark:text-zinc-400 text-center leading-none">
