@@ -28,19 +28,13 @@ export default function Projects() {
                 ))}
               </ul>
             </div>
-            <div className="flex items-center gap-2 border-t-[1px] mt-[1rem] pt-[10px] *:text-sm">
-              <a
-                className="flex items-center gap-2 px-3 py-1 rounded-md hover:bg-slate-200 transition-all duration-300 ease-linear"
-                href=""
-              >
-                <div className="text-[1rem]">{iconsUI.link}</div>
+            <div className="flex items-center gap-2 border-t-[1px] dark:border-zinc-700 mt-[1rem] pt-[10px] *:text-sm">
+              <a className="iconsProjects" href="">
+                <span className="IconsProjectsIcons">{iconsUI.link}</span>
                 <span>Preview</span>
               </a>
-              <a
-                className="flex items-center gap-2 px-3 py-1 rounded-md hover:bg-slate-200 transition-all duration-300 ease-linear"
-                href=""
-              >
-                <span>{iconsUI.github}</span>
+              <a className="iconsProjects" href="">
+                <span className="IconsProjectsIcons">{iconsUI.github}</span>
                 <span>Repository</span>
               </a>
             </div>

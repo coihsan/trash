@@ -21,7 +21,7 @@ const Hero = () => {
         <ButtonLink
           link={"#"}
           variant={
-            "bg-coral-100 border-lime-500 dark:border-coral-500 dark:fill-white"
+            "bg-coral-100 border-coral-500 dark:fill-white"
           }
           text={"Whatsapp"}
           icon={iconsUI.whatsapp}
