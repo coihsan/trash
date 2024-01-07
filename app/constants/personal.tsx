@@ -17,7 +17,7 @@ export const personaldata: {
   {
     key: 0,
     about:
-      "I started my career in early 2016 as a marketing and design, over time I learned digital marketing and applied it in several companies. at the end of 2022 I also played a role for frontend developers.",
+      "I can handle jobs such as Digital Marketing, Graphic Design, and also as a Frontend Developer in marketing with a team or individually.",
     passion: [
       {
         key: 0,
