@@ -3,21 +3,27 @@ import React, { useState, useEffect } from "react";
 import { iconsUI } from "../constants/Icons";
 export default function DarkMode() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    const savedTheme = localStorage.getItem("theme");
+    const savedTheme =
+      typeof window !== "undefined" ? localStorage.getItem("theme") : null;
     return savedTheme ? savedTheme === "dark" : true;
   });
   const handleDarkMode = () => {
     const newDarkMode = !isDarkMode;
     setIsDarkMode(newDarkMode);
-    localStorage.setItem("theme", newDarkMode ? "dark" : "light");
-    document.documentElement.classList.toggle("dark", newDarkMode);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("theme", newDarkMode ? "dark" : "light");
+      document.documentElement.classList.toggle("dark", newDarkMode);
+    }
   };
+
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme) {
-      const isDarkMode = savedTheme === "dark";
-      setIsDarkMode(isDarkMode);
-      document.documentElement.classList.toggle("dark", isDarkMode);
+    if (typeof window !== "undefined") {
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme) {
+        const isDarkMode = savedTheme === "dark";
+        setIsDarkMode(isDarkMode);
+        document.documentElement.classList.toggle("dark", isDarkMode);
+      }
     }
   }, []);
 
